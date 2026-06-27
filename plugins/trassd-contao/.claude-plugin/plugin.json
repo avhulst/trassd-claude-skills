@@ -1,0 +1,10 @@
+{
+  "name": "trassd-contao",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Contao CMS extension/bundle best practices: bundle structure, DCA configuration, fragment controllers (content elements & modules), page controllers, Twig templates, insert tags, migrations, DataContainer security voters, hooks, models, image processing, translations, testing (ContaoTestCase/PHPUnit), the QA stack (ECS via contao/easy-coding-standard, PHPStan, Rector), caching, and cron/jobs/messaging.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": ["contao", "php", "symfony", "cms", "dca", "twig", "code-quality", "best-practices"]
+}

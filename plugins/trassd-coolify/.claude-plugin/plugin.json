@@ -1,0 +1,21 @@
+{
+  "name": "trassd-coolify",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Coolify best practices: the projects/environments/resources model, application build packs, build-time vs runtime environment variables & secrets, persistent storage, domains & TLS, the Caddy/Traefik reverse proxy, managed databases & S3 backups, Git CI/CD with health checks & rolling updates, Docker destinations & networks, server hardening, and the REST API / MCP integration.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "coolify",
+    "self-hosting",
+    "paas",
+    "deployment",
+    "docker",
+    "devops",
+    "ci-cd",
+    "reverse-proxy",
+    "code-quality",
+    "best-practices"
+  ]
+}

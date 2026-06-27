@@ -1,0 +1,18 @@
+{
+  "name": "trassd-tinymce",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce TinyMCE best practices: initializing the editor (tinymce.init / EditorManager), configuring it (toolbar, menubar, plugins, content styling and the typed option system), working with the Editor instance API (content get/set, commands, events, undo, formatting), enabling the bundled plugins, authoring custom plugins that register UI via the editor's UI registry, and controlling content filtering & HTML sanitization (schema, valid_elements, XSS-protection options).",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "tinymce",
+    "wysiwyg",
+    "rich-text-editor",
+    "javascript",
+    "editor",
+    "content-editing",
+    "html-sanitization"
+  ]
+}

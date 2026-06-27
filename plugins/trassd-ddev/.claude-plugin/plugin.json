@@ -1,0 +1,18 @@
+{
+  "name": "trassd-ddev",
+  "version": "0.1.0",
+  "description": "Skills and agents for DDEV — the Docker-based local development environment used by PHP/CMS projects. Covers project setup & configuration, custom services & Docker Compose overrides, custom commands & hooks, debugging & profiling, add-ons, and CMS-specific settings.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "ddev",
+    "docker",
+    "php",
+    "local-development",
+    "devops",
+    "cms",
+    "code-quality"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "trassd",
+  "owner": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "metadata": {
+    "description": "Trassd — Claude Code plugins that enforce PHP-framework best practices (Symfony, Shopware, Contao, Sulu, DDEV, …) to raise code quality in downstream projects.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "trassd-contao",
+      "source": "./plugins/trassd-contao",
+      "description": "Skills and agents that enforce Contao CMS extension/bundle best practices: bundle structure, DCA configuration, fragment controllers (content elements & modules), page controllers, Twig templates, insert tags, migrations, DataContainer security voters, hooks, models, image processing, translations, testing (ContaoTestCase/PHPUnit), the QA stack (ECS via contao/easy-coding-standard, PHPStan, Rector), caching, and cron/jobs/messaging."
+    },
+    {
+      "name": "trassd-coolify",
+      "source": "./plugins/trassd-coolify",
+      "description": "Skills and agents that enforce Coolify best practices: the projects/environments/resources model, application build packs, build-time vs runtime environment variables & secrets, persistent storage, domains & TLS, the Caddy/Traefik reverse proxy, managed databases & S3 backups, Git CI/CD with health checks & rolling updates, Docker destinations & networks, server hardening, and the REST API / MCP integration."
+    },
+    {
+      "name": "trassd-ddev",
+      "source": "./plugins/trassd-ddev",
+      "description": "Skills and agents for DDEV — the Docker-based local development environment used by PHP/CMS projects. Covers project setup & configuration, custom services & Docker Compose overrides, custom commands & hooks, debugging & profiling, add-ons, and CMS-specific settings."
+    },
+    {
+      "name": "trassd-deployer",
+      "source": "./plugins/trassd-deployer",
+      "description": "Skills and agents that enforce Deployer (deployer.org) best practices: writing deploy.php/deploy.yaml recipes, defining hosts & connections, tasks & hooks, the release/shared/current deploy lifecycle, framework recipes, server provisioning, CI/CD pipelines, and zero-downtime PHP-FPM/opcache configuration."
+    },
+    {
+      "name": "trassd-docker",
+      "source": "./plugins/trassd-docker",
+      "description": "Skills and agents that enforce Docker best practices: writing efficient, secure Dockerfiles, multi-stage builds, build-cache optimization, build secrets & args, multi-platform builds, building in CI (GitHub Actions), Compose file authoring, Compose environment & secrets, container/image security hardening, networking, and persistent storage with volumes."
+    },
+    {
+      "name": "trassd-shopware",
+      "source": "./plugins/trassd-shopware",
+      "description": "Skills and agents that enforce Shopware 6 plugin and app best practices: plugin scaffolding & lifecycle, dependency injection, DAL entities & associations, database migrations, events & subscribers, Store-API routes, Storefront controllers, templates & JavaScript components, Administration modules/components, scheduled tasks & messaging, Shopware Apps (manifest, registration & webhooks, Twig app scripts, Meteor Admin SDK), Storefront themes (theme.json, inheritance, SCSS), the platform's Architecture Decision Records (ADRs), plus a Store quality gate."
+    },
+    {
+      "name": "trassd-shopware-frontends",
+      "source": "./plugins/trassd-shopware-frontends",
+      "description": "Skills and agents for Shopware Frontends — the Vue 3 / Nuxt 4 / TypeScript framework for headless Shopware 6 storefronts. Covers project setup & templates, the API client (Store + Admin), Vue composables, the CMS base layer, API type generation, and the framework-agnostic helpers."
+    },
+    {
+      "name": "trassd-sulu",
+      "source": "./plugins/trassd-sulu",
+      "description": "Skills and agents that enforce Sulu CMS best practices: page & snippet templates (XML structure + property types + Twig), content architecture & smart content, webspace configuration & localization, extending the admin UI, extending Doctrine entities & dimension content, website rendering (controllers, Twig, HTTP cache), security & permissions, and media handling."
+    },
+    {
+      "name": "trassd-symfony",
+      "source": "./plugins/trassd-symfony",
+      "description": "Skills and agents that enforce Symfony best practices: service config & autowiring, Doctrine entity design and migrations, security voters, and functional testing."
+    },
+    {
+      "name": "trassd-symfony-ai",
+      "source": "./plugins/trassd-symfony-ai",
+      "description": "Skills and agents for the Symfony AI stack — AI Bundle setup, the Platform component & model bridges (OpenAI / Anthropic / Gemini / VertexAI / Voyage / …), building Agents with tool calling, Chat + memory, Store / RAG with vector databases, the MCP bundle & servers, Mate, and multi-agent orchestration."
+    },
+    {
+      "name": "trassd-symfony-ux",
+      "source": "./plugins/trassd-symfony-ux",
+      "description": "Skills and agents that enforce Symfony UX best practices: writing Stimulus controllers via StimulusBundle, building reusable PHP-backed Twig Components, reactive Live Components (LiveProp/LiveAction, data binding & validation), Hotwired Turbo integration (Drive/Frames/Streams & broadcasting), Doctrine-backed Autocomplete form fields, rendering React & Vue components from Twig, scaffolding UI with the UX Toolkit (Shadcn / Flowbite kits), and the prebuilt UX bridge packages (Chart.js, Cropper.js, Dropzone, Notify, Icons, Map, Translator, CalendarLink)."
+    },
+    {
+      "name": "trassd-tinymce",
+      "source": "./plugins/trassd-tinymce",
+      "description": "Skills and agents that enforce TinyMCE best practices: initializing the editor (tinymce.init / EditorManager), configuring it (toolbar, menubar, plugins, content styling and the typed option system), working with the Editor instance API (content get/set, commands, events, undo, formatting), enabling the bundled plugins, authoring custom plugins that register UI via the editor's UI registry, and controlling content filtering & HTML sanitization (schema, valid_elements, XSS-protection options)."
+    }
+  ]
+}

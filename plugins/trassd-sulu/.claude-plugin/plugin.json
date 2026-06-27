@@ -1,0 +1,18 @@
+{
+  "name": "trassd-sulu",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Sulu CMS best practices: page & snippet templates (XML structure + property types + Twig), content architecture & smart content, webspace configuration & localization, extending the admin UI, extending Doctrine entities & dimension content, website rendering (controllers, Twig, HTTP cache), security & permissions, and media handling.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "sulu",
+    "php",
+    "symfony",
+    "cms",
+    "content-management",
+    "code-quality",
+    "best-practices"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "trassd-shopware",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Shopware 6 plugin and app best practices: plugin scaffolding & lifecycle, dependency injection, DAL entities & associations, database migrations, events & subscribers, Store-API routes, Storefront controllers, templates & JavaScript components, Administration modules/components, scheduled tasks & messaging, Shopware Apps (manifest, registration & webhooks, Twig app scripts, Meteor Admin SDK), Storefront themes (theme.json, inheritance, SCSS), the platform's Architecture Decision Records (ADRs), plus a Store quality gate.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "shopware",
+    "shopware6",
+    "php",
+    "ecommerce",
+    "plugin",
+    "dal",
+    "store-api",
+    "code-quality"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "trassd-symfony-ux",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Symfony UX best practices: writing Stimulus controllers via StimulusBundle, building reusable PHP-backed Twig Components, reactive Live Components (LiveProp/LiveAction, data binding & validation), Hotwired Turbo integration (Drive/Frames/Streams & broadcasting), Doctrine-backed Autocomplete form fields, rendering React & Vue components from Twig, scaffolding UI with the UX Toolkit (Shadcn / Flowbite kits), and the prebuilt UX bridge packages (Chart.js, Cropper.js, Dropzone, Notify, Icons, Map, Translator, CalendarLink).",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "symfony",
+    "symfony-ux",
+    "stimulus",
+    "twig-components",
+    "live-components",
+    "turbo",
+    "hotwire",
+    "php",
+    "code-quality"
+  ]
+}

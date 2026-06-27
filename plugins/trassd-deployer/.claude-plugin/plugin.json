@@ -1,0 +1,21 @@
+{
+  "name": "trassd-deployer",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Deployer (deployer.org) best practices: writing deploy.php/deploy.yaml recipes, defining hosts & connections, tasks & hooks, the release/shared/current deploy lifecycle, framework recipes, server provisioning, CI/CD pipelines, and zero-downtime PHP-FPM/opcache configuration.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "deployer",
+    "deployphp",
+    "php",
+    "deployment",
+    "ssh",
+    "ci-cd",
+    "provisioning",
+    "zero-downtime",
+    "code-quality",
+    "best-practices"
+  ]
+}

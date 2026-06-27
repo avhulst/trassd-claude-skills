@@ -1,0 +1,20 @@
+{
+  "name": "trassd-symfony-ai",
+  "version": "0.1.0",
+  "description": "Skills and agents for the Symfony AI stack — AI Bundle setup, the Platform component & model bridges (OpenAI / Anthropic / Gemini / VertexAI / Voyage / …), building Agents with tool calling, Chat + memory, Store / RAG with vector databases, the MCP bundle & servers, Mate, and multi-agent orchestration.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "symfony",
+    "symfony-ai",
+    "php",
+    "ai",
+    "llm",
+    "agents",
+    "rag",
+    "mcp",
+    "code-quality"
+  ]
+}

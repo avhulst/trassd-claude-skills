@@ -1,0 +1,19 @@
+{
+  "name": "trassd-shopware-frontends",
+  "version": "0.1.0",
+  "description": "Skills and agents for Shopware Frontends — the Vue 3 / Nuxt 4 / TypeScript framework for headless Shopware 6 storefronts. Covers project setup & templates, the API client (Store + Admin), Vue composables, the CMS base layer, API type generation, and the framework-agnostic helpers.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "shopware",
+    "shopware-frontends",
+    "vue",
+    "nuxt",
+    "typescript",
+    "headless",
+    "ecommerce",
+    "code-quality"
+  ]
+}

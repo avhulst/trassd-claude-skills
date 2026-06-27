@@ -1,0 +1,21 @@
+{
+  "name": "trassd-docker",
+  "version": "0.1.0",
+  "description": "Skills and agents that enforce Docker best practices: writing efficient, secure Dockerfiles, multi-stage builds, build-cache optimization, build secrets & args, multi-platform builds, building in CI (GitHub Actions), Compose file authoring, Compose environment & secrets, container/image security hardening, networking, and persistent storage with volumes.",
+  "author": {
+    "name": "Andreas van Hulst",
+    "email": "andreas@vanhulst.de"
+  },
+  "keywords": [
+    "docker",
+    "dockerfile",
+    "docker-compose",
+    "containers",
+    "buildkit",
+    "buildx",
+    "ci-cd",
+    "security",
+    "code-quality",
+    "best-practices"
+  ]
+}

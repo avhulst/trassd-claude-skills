@@ -1,4 +1,4 @@
-y---
+---
 name: shopware-events
 description: >-
   React to and define events in Shopware 6 — finding events, writing event
